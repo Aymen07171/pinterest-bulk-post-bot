@@ -1,0 +1,62 @@
+{
+  "board_name": "",
+  "login_wait_seconds": 120,
+  "delay_between_pins": 2,
+  "images_folder": "bulk_post_pinterest",
+  "headless": false,
+  "chrome_profile_dir": "",
+  "google_sheets": {
+    "spreadsheet_id": "YOUR_GOOGLE_SPREADSHEET_ID",
+    "worksheet_gid": 0,
+    "header_row": 1,
+    "service_account_file": "credentials/google-service-account.json",
+    "selection_column": "Publish",
+    "output_columns": {
+      "selection": "Publish",
+      "status": "Status",
+      "pin_id": "Pinterest Pin ID",
+      "pin_url": "Pinterest Pin URL",
+      "error": "Publish Error",
+      "updated_at": "Updated At"
+    },
+    "column_map": {
+      "title": "Title",
+      "description": "Description",
+      "category": "Category"
+    },
+    "image_columns": [
+      "Mockup_01_URL",
+      "Mockup_02_URL",
+      "Mockup_03_URL",
+      "Mockup_04_URL",
+      "Mockup_05_URL",
+      "Mockup_06_URL"
+    ],
+    "keyword_columns": [
+      "Tag_01",
+      "Tag_02",
+      "Tag_03",
+      "Tag_04",
+      "Tag_05",
+      "Tag_06",
+      "Tag_07",
+      "Tag_08",
+      "Tag_09",
+      "Tag_10",
+      "Tag_11",
+      "Tag_12",
+      "Tag_13"
+    ],
+    "description_fields": [
+      "Design_Name",
+      "Primary_Color",
+      "Secondary_Color",
+      "Style",
+      "Occasion",
+      "Recipient"
+    ],
+    "category_boards": {},
+    "default_board": "",
+    "default_destination_url": ""
+  }
+}
